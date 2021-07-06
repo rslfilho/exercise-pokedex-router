@@ -1,3 +1,12 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  align-self: center;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
 }

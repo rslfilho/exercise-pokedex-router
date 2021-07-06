@@ -42,7 +42,7 @@ class Pokedex extends React.Component {
 
     return (
       <div className="pokedex">
-        <Pokemon pokemon={pokemon} />
+        <Pokemon pokemon={pokemon} detailLink={true} />
         <div className="pokedex-buttons-panel">
           <Button
             onClick={() => this.filterPokemons('all')}
